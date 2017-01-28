@@ -226,7 +226,7 @@ async def unsbias(ctx, role_name: str):
 def main():
     """Main entry point."""
     parser = argparse.ArgumentParser(description=description)
-    parser.add_argument('-c', '--config-file', nargs=1, dest='config_file', default='config.yml',
+    parser.add_argument('-c', '--config-file', dest='config_file', default='config.yml',
                         help='Configuration file, defaults to config.yml')
     parser.add_argument('-d', '--debug', action='store_true')
     args = parser.parse_args()
