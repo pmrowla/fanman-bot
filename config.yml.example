@@ -1,0 +1,29 @@
+# Discord Bot auth token
+#token: token
+
+# Log file path
+#logfile: discord-fanman.log
+
+# A list of roles that can be assiged as biases.
+# A separate bias and sub-bias role will be created for each entry if they do
+# not already exist on the server. Bias roles will be Capitalized and sub-bias
+# roles will be all lowercase.
+#bias_roles:
+#  - role1
+#  - role2
+
+# Default general chat channel
+#general_channel: general
+
+# User Join/Part messages. If these values are set the specified
+# message will be posted in general chat when a user joins are leaves the
+# server.
+#
+# Formatting usage:
+#   {user} will be replaced with the name of the user.
+#   {server} will be replaced with the name of the server.
+#
+# If formatting strings are used strings must be single-quoted in order to
+# properly escape the { and } characters.
+#join_message: '{user} welcome to the {server} server!'
+#part_message: '{user} has left the server.'
